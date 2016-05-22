@@ -1,0 +1,300 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;
+}
+#logo_name {
+	display: inline-block;
+	width: 480px;
+}
+#header {
+	position: relative;
+}
+#logo_name img {
+	float: left;
+	width: 75px;
+}
+
+#nav, #feature {
+	background-color: #efefef;
+	margin-top: 20px;
+}
+#footer {
+	background-color: #414244;
+	margin-top: 20px;
+}
+#footer p{
+	color: #ffffff;
+}
+#product_list {
+	margin-top: 20px;
+}
+/*========================slide viewer==================*/
+#feature {
+	height: 300px;
+}
+
+.slide_viewer {
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+.slide_group {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+.slide:first-child {
+	display: block;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+/********** BUTTONS **********/
+.slide_buttons {
+	text-align: center;}
+
+.slide_btn {
+	border: none;
+	background: none;
+	color: #414244;
+	font-size: 200%;
+	line-height: 0.5em;}
+
+.slide_btn.active {
+	color: #EE6C21;
+	
+}
+.slide_btn:hover:not(.active) {
+	color:#111;
+	cursor: pointer;
+}
+/*========================slide viewer end==================*/
+#nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #414244;
+}
+#nav li {
+	float: left;
+}
+#nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	/*margin: 0px;*/
+	
+}
+#nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+#nav .active {
+	background-color: #EE6C21;
+}
+
+#product_list ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 8px 8px;
+}
+
+#product_list li {
+	width: 225px;
+	height: 248px;
+	float: left;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+#product_list li a img {
+	width: 225px;
+	height: 210px;
+}
+
+#product_list li:hover {
+	margin: 0px;
+	border: 4px #EE6C21 solid;
+}
+
+#product_list li p {
+	margin-top: 8px;
+	width: 225px;
+	height: 30px;
+	text-align: center;
+	/*line-height: 30px;*/
+}
+
+#article_group {
+	/*margin:0 auto;*/
+	margin-top: 20px;
+	/*margin-bottom: 20px;*/
+}
+
+#article_group button {
+	position: absolute;
+	bottom: 5px;
+	left: 40%;
+	margin: 0 auto;
+	padding: 12px 26px;
+	font-size: 14px;
+	border: none;
+	border-radius: 8px;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	background-color: #414244;
+}
+
+#article_group button:hover{
+	background-color: #F16438;
+
+}
+.article {
+	/*margin-right: 20px;*/
+	background-color: #F3F3F4;
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+.article * {
+	color: #020202;
+}
+.article h2 {
+	color: #F16438;
+}
+#article1 {
+	margin: 0px 20px 0px 0px;
+	width: 300px;
+	position: relative;
+}
+
+#article1 p {
+	width: 200px;
+	text-align: left;
+	margin: auto;
+}
+
+#article2 {
+	margin: 0px 20px 0px 0px;
+}
+
+#article2 ul {
+	list-style-type: none;
+	width:250px;
+	/*padding: 0px;*/
+}
+
+#article2 ul li {
+	text-align: left;
+	margin: 10px 0px 0px 0px;
+}
+
+#article2 ul li address {
+	text-align: left;
+}
+
+#article3 {
+	margin: 0px 0px 0px 0px;
+}
+
+#article3 ul {
+	list-style-type: none;
+	width: 250px;
+}
+
+#article3 ul li {
+	text-align: left;
+	margin: 10px 0px 0px 0px;
+}
+
+.hidden {
+	display: none;
+	width: 940px;
+	height: 400px;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	background-color: #efefef
+}
+
+#article1_hidden {
+	text-align: left;
+}
+
+
+#left_column {
+	float: left;
+	width: 470px;
+	height: 400px;
+}
+
+#left_column ul {
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+#left_column ul li {
+	text-align: left;
+	margin-top: 15px;
+}
+
+#left_column h3, #left_column h4 {
+	text-align: left;
+	padding-left: 30px;
+}
+#right_column {
+	float: left;
+	width: 470px;
+	height: 400px;
+}
+
+#right_column iframe {
+	margin-top: 25px;
+}
+
+#article3_hidden {
+	overflow-y: scroll;
+}
+
+#article3_hidden #branch_list {
+	margin: 0px;
+	padding: 0px;
+}
+#article3_hidden .branch_item {
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px 0px 0px 10px;
+	padding: 0px;
+	width: 940px;
+	height: 200px;
+}
+
+#article3_hidden .branch_item ul {
+	list-style-type: none;
+}
+
+#article3_hidden img {
+	float: left;
+	width: 330px;
+	height: 160px;
+	padding-right: 20px;
+}
+#article3_hidden .branch_item h3 {
+	margin: 5px;
+}
+#article3_hidden .branch_item h3, #article3_hidden .branch_item li, 
+#article3_hidden .branch_item address {
+	text-align:left;
+}
